@@ -1,0 +1,52 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html ng-app="productsListApp">
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/angular")
+    <script src="~/Scripts/sima.js"></script>
+</head>
+<body ng-controller="productsListController">
+    <table class=" table table-striped">
+        <tr>
+            <td class="text-center btn-light" ng-repeat="headers in headers"><p>{{headers.header}}</p></td>
+        </tr>
+        <tr ng-repeat="products in products" class="text-dark btn-outline-light" ng-click="Edit()">
+            <td>
+                <p>{{products.id}}</p>
+            </td>
+            <td>
+                <p>{{products.name}}</p>
+            </td>
+            <td>
+                <p>{{products.Count}}</p>
+            </td>
+            <td><p>{{products.Price}}</p></td>
+            <td>
+                <button class="btn btn-danger" id="{{products.ProductId}}" ng-click="IDelete({{products.ProductId}})">Удалить</button>
+            </td>
+        </tr>
+    </table>
+    <div class="card">
+        <h3 class="align-content-center" align-content="center">Добавление элнмента</h3>
+        <table>
+            <caption></caption>
+            <tr ng-repeat="headers in headers">
+                <td><p>{{headers.header}}: </p> </td>
+                <td><input type="text" id="{{headers.idHeader}}" /></td>
+            </tr>
+        </table>
+        <button class="btn btn-outline-info" ng-click="IAdd($(#id.val(), #count.val(), #price.val(), #name.val())">Добавить</button>
+        <button class="btn btn-outline-warning">Отмена</button>
+    </div>
+    <button ng-click="Reflesh()" type="button" class="btn btn-outline-secondary">Добавить</button>
+</body>
+</html>

@@ -1,0 +1,9 @@
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products.domain\bin\Debug\xarek.products.domain.dll
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products.domain\bin\Debug\xarek.products.domain.pdb
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products.domain\obj\Debug\xarek.products.domain.dll
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products.domain\obj\Debug\xarek.products.domain.pdb
+D:\distr\xarek.products\xarek.products.domain\bin\Debug\xarek.products.domain.dll
+D:\distr\xarek.products\xarek.products.domain\bin\Debug\xarek.products.domain.pdb
+D:\distr\xarek.products\xarek.products.domain\obj\Debug\xarek.products.doman.csprojResolveAssemblyReference.cache
+D:\distr\xarek.products\xarek.products.domain\obj\Debug\xarek.products.domain.dll
+D:\distr\xarek.products\xarek.products.domain\obj\Debug\xarek.products.domain.pdb

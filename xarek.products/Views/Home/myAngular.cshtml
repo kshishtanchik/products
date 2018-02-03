@@ -1,0 +1,64 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html ng-app="productsListApp">
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/angular")
+    <script src="~/Scripts/app.js"></script>
+</head>
+<body ng-controller="productsListController">
+     <table class=" table table-striped">
+        <tr>
+            <td class="text-center btn-light" ng-repeat="headers in headers"><p>{{headers.header}}</p></td><td  class="text-center btn-light"></td>
+        </tr>
+        <tr ng-repeat="products in products" class="text-dark btn-outline-light">
+            <td>
+                <p>{{products.ProductId}}</p>
+                    </td>
+            <td>
+                <p>{{products.ProductName}}</p>
+                    </td>
+            <td>
+                <p>{{products.Count}}</p>
+            </td>
+            <td><p>{{products.Price}}</p></td>
+            <td>
+                <button class="btn btn-danger" ng-click="IDelete(products.ProductId)">Удалить</button>
+            </td>
+        </tr>
+    </table>
+    <div class="card">
+        <h3 class="align-content-center" align-content="center">Запись элнмента</h3>
+        <table>
+             <caption></caption>
+               <tr>
+                <td><p>Идентификатор продукта: </p> </td>
+            <td><input type="text" ng-model="ProductId" /></td>
+            </tr>
+            <tr>
+                <td><p>Наименование продукта: </p> </td>
+                <td><input type="text" ng-model="ProductName" /></td>
+            </tr>
+            <tr>
+                <td><p>Количество товара: </p> </td>
+                <td><input type="text" ng-model="Count" /></td>
+            </tr>
+            <tr>
+                <td><p>Цена продукта: </p> </td>
+                <td><input type="text" ng-model="Price" /></td>
+            </tr>
+</table>
+        <button class="btn btn-outline-info" ng-click="IAdd()"> Записать</button>
+        <button class="btn btn-outline-warning">Отмена</button>
+    </div>
+    <button ng-click="Reflesh()"  type="button" class="btn btn-outline-secondary">Добавить</button>
+</body>
+</html>

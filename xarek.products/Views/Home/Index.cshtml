@@ -1,0 +1,125 @@
+﻿<div class="jumbotron">
+    
+
+    <h1>Доступные продукты</h1>
+    <p class="lead">Посмотрим, изменим, добавим и удалим некотрые записи</p>
+</div>
+<div class="row">
+    <div class="col-md-4 border-right">
+        <h3 id="PrevNameProduct">Предыдщий просмотенный продукт</h3>
+        <div class="lead text-lg-left"></div>
+        <p id="PrevCount">Покажем тут сведения об уже просмотренном продукте</p>
+        <p id="PrevPrice">Пока ничего не просмотрено</p>
+        <script>
+            $(function (getMyFData) {
+                $("#get").button();
+                $("#get").click(function () {
+                    $.ajax({
+                        url: "/api/Values",
+                        method: "get",
+                        //data: {
+                        //    i: $("#CurrIdProduct").val()
+                        //},
+                        success: function (result) {
+                            var i = $("#CurrIdProduct").val();
+                            $("#NewNameProduct").val(result[i].ProductName);
+                            $("#NewPrice").val(result[i].Price);
+                            $("#NewCount").val(result[i].Count);
+                            i++;
+                            if (result[i].ProductName == null) {
+                                $("#NextNameProduct").html("Элементы закончились");
+                                $("#NextPrice").html('Цена продукта: ' + result[i].Price);
+                                $("#NextCount").html("Количество: " + result[i].Count);
+                            }
+                            else {
+                                $("#NextNameProduct").html(result[i].ProductName);
+                                $("#NextPrice").html('Цена продукта: ' + result[i].Price);
+                                $("#NextCount").html("Количество: " + result[i].Count);
+                            };
+                           if (i > 1) {
+                                i--; i--;
+                                $("#PrevNameProduct").html(result[i].ProductName);
+                                $("#PrevPrice").html('Цена продукта: ' + result[i].Price);
+                                $("#PrevCount").html("Количество: " + result[i].Count);
+                            };
+                            
+                        }
+                    });
+                });
+            });
+          
+            $(function (postMyFData) {
+                $("#post").button();
+                $("#post").click(function () {
+                    $.ajax({
+                        url: "/api/Values",
+                        method: "post",
+                        data: {
+                            id: $("#CurrIdProduct").val(),
+                            count: $("#NewCount").val(),
+                            price: $("#NewPrice").val(),
+                            name: $("#NewNameProduct").val()                            
+                        },
+                        success: function () {
+                            $("#flag").html("Записано!");
+                        }
+                    });
+                });
+            });
+        $(function (putMyFData) {
+            $("#put").button();
+            $("#put").click(function () {
+                $.ajax({
+                    url: "/api/Values",
+                    method: "put",
+                    data: {
+                        OldItem: $("#CurrIdProduct").val(),
+                        Price: $("#NewPrice").val(),
+                        ProductName: $("#NewNameProduct").val(),
+                        Count: $("#NewCount").val()
+                    },
+                    success: function () {
+                        $("#flag").html("Записано!");
+                    }
+                });
+            });
+        });
+        $(function (delMyFData) {
+            $("#del").button();
+            $("#del").click(function () {
+                $.ajax({
+                    url: "/api/Values",
+                    method: "Delete",
+                    data: {
+                        ProductId: $("#CurrIdProduct").val()
+                    },
+                    success: function () {
+                        $("#flag").html("Удалено!");
+                    }
+                });
+            });
+        });
+
+        </script>
+    </div>
+    <div class="col-md-4 bg-light align-content-lg-stretch">
+        <h2 id="CurrNameProduct">Просматриваемый продукт</h2>
+        <p>Название продукта:  <input id="NewNameProduct" /></p>
+        <p>Количество: <input id="NewCount" /></p>
+        <p>Цена продукта: <input id="NewPrice" /></p>
+        <p>Номер продукта: <input type="text" id="CurrIdProduct" value="0"/></p>
+        <p>
+            <button id="get" class="btn-toolbar">Загрузить</button>
+            <button id="post" class="btn-toolbar">Добавить запись</button>
+            <button id="put" class="btn-toolbar">Заменить</button>
+            <button id="del" class="btn-toolbar">Удалить</button>
+            </p>
+        <p id="flag"></p>
+ 
+    </div>
+    <div class="col-md-4 border-left">
+        <h3 id="NextNameProduct">Следующий продукт</h3>
+        <p id="NextCount">Покажем тут сведения о следующем продукте</p>
+        <p id="NextPrice"></p>
+    </div>
+</div>

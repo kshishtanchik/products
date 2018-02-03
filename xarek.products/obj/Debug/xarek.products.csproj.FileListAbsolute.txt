@@ -1,0 +1,186 @@
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\ApplicationInsights.config
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\roslyn\csc.exe
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\roslyn\csc.exe.config
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\roslyn\csc.rsp
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\roslyn\csi.exe
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\roslyn\csi.rsp
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\roslyn\System.AppContext.dll
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\roslyn\vbc.exe
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\roslyn\vbc.exe.config
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\roslyn\vbc.rsp
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\roslyn\VBCSCompiler.exe
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\xarek.products.dll.config
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\xarek.products.dll
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\xarek.products.pdb
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\Antlr3.Runtime.dll
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\Microsoft.AI.Web.dll
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\Newtonsoft.Json.dll
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\Ninject.dll
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\Ninject.Web.Common.dll
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\Ninject.Web.Common.WebHost.dll
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\Ninject.Web.Mvc.dll
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\System.Net.Http.Formatting.dll
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\System.Web.Helpers.dll
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\System.Web.Http.dll
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\System.Web.Http.WebHost.dll
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\System.Web.Mvc.dll
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\System.Web.Optimization.dll
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\System.Web.Razor.dll
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\System.Web.WebPages.dll
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\System.Web.WebPages.Razor.dll
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\WebGrease.dll
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\xarek.products.domain.dll
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\xarek.products.domain.pdb
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\Ninject.xml
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\Ninject.Web.Common.xml
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\Ninject.Web.Common.WebHost.xml
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\Ninject.Web.Mvc.xml
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\Newtonsoft.Json.xml
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\System.Net.Http.Formatting.xml
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\System.Web.Helpers.xml
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\System.Web.Http.xml
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\System.Web.Http.WebHost.xml
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\System.Web.Mvc.xml
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\System.Web.Optimization.xml
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\System.Web.Razor.xml
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\System.Web.WebPages.xml
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\System.Web.WebPages.Razor.xml
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\Antlr3.Runtime.pdb
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\Microsoft.AI.Web.xml
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\ru\System.Net.Http.Formatting.resources.dll
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\ru\System.Web.Helpers.resources.dll
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\ru\System.Web.Http.resources.dll
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\ru\System.Web.Http.WebHost.resources.dll
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\ru\System.Web.Mvc.resources.dll
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\ru\System.Web.Optimization.resources.dll
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\ru\System.Web.Razor.resources.dll
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\ru\System.Web.WebPages.resources.dll
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\ru\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\bin\ru\System.Web.WebPages.Razor.resources.dll
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\obj\Debug\xarek.products.csprojResolveAssemblyReference.cache
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\obj\Debug\xarek.products.dll
+C:\Users\Kshishtanchik.ссд-240\documents\visual studio 2017\Projects\xarek.products\xarek.products\obj\Debug\xarek.products.pdb
+D:\distr\xarek.products\xarek.products\bin\ApplicationInsights.config
+D:\distr\xarek.products\xarek.products\bin\roslyn\csc.exe
+D:\distr\xarek.products\xarek.products\bin\roslyn\csc.exe.config
+D:\distr\xarek.products\xarek.products\bin\roslyn\csc.rsp
+D:\distr\xarek.products\xarek.products\bin\roslyn\csi.exe
+D:\distr\xarek.products\xarek.products\bin\roslyn\csi.rsp
+D:\distr\xarek.products\xarek.products\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\distr\xarek.products\xarek.products\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\distr\xarek.products\xarek.products\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\distr\xarek.products\xarek.products\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\distr\xarek.products\xarek.products\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\distr\xarek.products\xarek.products\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\distr\xarek.products\xarek.products\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\distr\xarek.products\xarek.products\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\distr\xarek.products\xarek.products\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\distr\xarek.products\xarek.products\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\distr\xarek.products\xarek.products\bin\roslyn\System.AppContext.dll
+D:\distr\xarek.products\xarek.products\bin\roslyn\System.Collections.Immutable.dll
+D:\distr\xarek.products\xarek.products\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\distr\xarek.products\xarek.products\bin\roslyn\System.IO.FileSystem.dll
+D:\distr\xarek.products\xarek.products\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\distr\xarek.products\xarek.products\bin\roslyn\System.Reflection.Metadata.dll
+D:\distr\xarek.products\xarek.products\bin\roslyn\vbc.exe
+D:\distr\xarek.products\xarek.products\bin\roslyn\vbc.exe.config
+D:\distr\xarek.products\xarek.products\bin\roslyn\vbc.rsp
+D:\distr\xarek.products\xarek.products\bin\roslyn\VBCSCompiler.exe
+D:\distr\xarek.products\xarek.products\bin\roslyn\VBCSCompiler.exe.config
+D:\distr\xarek.products\xarek.products\bin\xarek.products.dll.config
+D:\distr\xarek.products\xarek.products\bin\xarek.products.dll
+D:\distr\xarek.products\xarek.products\bin\xarek.products.pdb
+D:\distr\xarek.products\xarek.products\bin\Antlr3.Runtime.dll
+D:\distr\xarek.products\xarek.products\bin\Microsoft.AI.Agent.Intercept.dll
+D:\distr\xarek.products\xarek.products\bin\Microsoft.AI.DependencyCollector.dll
+D:\distr\xarek.products\xarek.products\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\distr\xarek.products\xarek.products\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\distr\xarek.products\xarek.products\bin\Microsoft.AI.Web.dll
+D:\distr\xarek.products\xarek.products\bin\Microsoft.AI.WindowsServer.dll
+D:\distr\xarek.products\xarek.products\bin\Microsoft.ApplicationInsights.dll
+D:\distr\xarek.products\xarek.products\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\distr\xarek.products\xarek.products\bin\Microsoft.Web.Infrastructure.dll
+D:\distr\xarek.products\xarek.products\bin\Newtonsoft.Json.dll
+D:\distr\xarek.products\xarek.products\bin\Ninject.dll
+D:\distr\xarek.products\xarek.products\bin\Ninject.Web.Common.dll
+D:\distr\xarek.products\xarek.products\bin\Ninject.Web.Common.WebHost.dll
+D:\distr\xarek.products\xarek.products\bin\Ninject.Web.Mvc.dll
+D:\distr\xarek.products\xarek.products\bin\System.Net.Http.Formatting.dll
+D:\distr\xarek.products\xarek.products\bin\System.Web.Helpers.dll
+D:\distr\xarek.products\xarek.products\bin\System.Web.Http.dll
+D:\distr\xarek.products\xarek.products\bin\System.Web.Http.WebHost.dll
+D:\distr\xarek.products\xarek.products\bin\System.Web.Mvc.dll
+D:\distr\xarek.products\xarek.products\bin\System.Web.Optimization.dll
+D:\distr\xarek.products\xarek.products\bin\System.Web.Razor.dll
+D:\distr\xarek.products\xarek.products\bin\System.Web.WebPages.Deployment.dll
+D:\distr\xarek.products\xarek.products\bin\System.Web.WebPages.dll
+D:\distr\xarek.products\xarek.products\bin\System.Web.WebPages.Razor.dll
+D:\distr\xarek.products\xarek.products\bin\WebGrease.dll
+D:\distr\xarek.products\xarek.products\bin\xarek.products.domain.dll
+D:\distr\xarek.products\xarek.products\bin\xarek.products.domain.pdb
+D:\distr\xarek.products\xarek.products\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\distr\xarek.products\xarek.products\bin\Ninject.xml
+D:\distr\xarek.products\xarek.products\bin\Ninject.Web.Common.xml
+D:\distr\xarek.products\xarek.products\bin\Ninject.Web.Common.WebHost.xml
+D:\distr\xarek.products\xarek.products\bin\Ninject.Web.Mvc.xml
+D:\distr\xarek.products\xarek.products\bin\Newtonsoft.Json.xml
+D:\distr\xarek.products\xarek.products\bin\System.Net.Http.Formatting.xml
+D:\distr\xarek.products\xarek.products\bin\System.Web.Helpers.xml
+D:\distr\xarek.products\xarek.products\bin\System.Web.Http.xml
+D:\distr\xarek.products\xarek.products\bin\System.Web.Http.WebHost.xml
+D:\distr\xarek.products\xarek.products\bin\System.Web.Mvc.xml
+D:\distr\xarek.products\xarek.products\bin\System.Web.Optimization.xml
+D:\distr\xarek.products\xarek.products\bin\System.Web.Razor.xml
+D:\distr\xarek.products\xarek.products\bin\System.Web.WebPages.xml
+D:\distr\xarek.products\xarek.products\bin\System.Web.WebPages.Deployment.xml
+D:\distr\xarek.products\xarek.products\bin\System.Web.WebPages.Razor.xml
+D:\distr\xarek.products\xarek.products\bin\Antlr3.Runtime.pdb
+D:\distr\xarek.products\xarek.products\bin\Microsoft.ApplicationInsights.xml
+D:\distr\xarek.products\xarek.products\bin\Microsoft.AI.DependencyCollector.xml
+D:\distr\xarek.products\xarek.products\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\distr\xarek.products\xarek.products\bin\Microsoft.AI.WindowsServer.xml
+D:\distr\xarek.products\xarek.products\bin\Microsoft.AI.Web.xml
+D:\distr\xarek.products\xarek.products\bin\ru\System.Net.Http.Formatting.resources.dll
+D:\distr\xarek.products\xarek.products\bin\ru\System.Web.Helpers.resources.dll
+D:\distr\xarek.products\xarek.products\bin\ru\System.Web.Http.resources.dll
+D:\distr\xarek.products\xarek.products\bin\ru\System.Web.Http.WebHost.resources.dll
+D:\distr\xarek.products\xarek.products\bin\ru\System.Web.Mvc.resources.dll
+D:\distr\xarek.products\xarek.products\bin\ru\System.Web.Optimization.resources.dll
+D:\distr\xarek.products\xarek.products\bin\ru\System.Web.Razor.resources.dll
+D:\distr\xarek.products\xarek.products\bin\ru\System.Web.WebPages.resources.dll
+D:\distr\xarek.products\xarek.products\bin\ru\System.Web.WebPages.Deployment.resources.dll
+D:\distr\xarek.products\xarek.products\bin\ru\System.Web.WebPages.Razor.resources.dll
+D:\distr\xarek.products\xarek.products\obj\Debug\xarek.products.csprojResolveAssemblyReference.cache
+D:\distr\xarek.products\xarek.products\obj\Debug\xarek.products.dll
+D:\distr\xarek.products\xarek.products\obj\Debug\xarek.products.pdb
