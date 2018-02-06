@@ -18,11 +18,7 @@ namespace xarek.products.domain.Implementation
                 new Product() { ProductId =1, Count=9, Price=90, ProductName="Мутированная многоножка" },
                 new Product() { ProductId =2, Count=3, Price=30, ProductName="Отпиленная нога наркомана" }
         };
-        public Product GetItem(int i)
-        {
-            return products.ElementAt(i);
-                //throw new NotImplementedExceprtion();
-        }
+        public Product GetItem(int i) => products.FirstOrDefault(x => x.ProductId == i);
         public List<Product> GetAll()
         {
             return products;
@@ -42,8 +38,8 @@ namespace xarek.products.domain.Implementation
         /// </summary>       
         public void DeleteItem(int DelProduct)
         {
-            var xyu = products.FirstOrDefault(x => x.ProductId == DelProduct);
-            products.Remove(xyu);
+            var item = products.FirstOrDefault(x => x.ProductId == DelProduct);
+            products.Remove(item);
         }
         // добавление изменеие удаление
         /// <summary>
@@ -51,16 +47,16 @@ namespace xarek.products.domain.Implementation
         /// </summary>
         public void SaveItem(Product product)
         {
-            var xyu = products.FirstOrDefault(x => x.ProductId == product.ProductId);
-            if (xyu == null)
+            var item = products.FirstOrDefault(x => x.ProductId == product.ProductId);
+            if (item == null)
             {
                 products.Add(product);
             }
             else
             {
-                xyu.ProductName = product.ProductName;
-                xyu.Price = product.Price;
-                xyu.Count = product.Count;
+                item.ProductName = product.ProductName;
+                item.Price = product.Price;
+                item.Count = product.Count;
             };
         }
 

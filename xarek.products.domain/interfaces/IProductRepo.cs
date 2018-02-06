@@ -9,6 +9,7 @@ namespace xarek.products.domain.interfaces
 {
     public interface IproductREPO
     {
+        Product GetItem(int i);
         void DeleteItem(int DelProduct);
         void SaveItem(Product product);
         List<Product> GetAll();

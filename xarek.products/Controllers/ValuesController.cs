@@ -17,12 +17,12 @@ namespace xarek.products.Controllers
         }
 
         // GET api/values
-        //public Product Get(int i=0)
-        //{
-        //    return productrepo.GetItem(i);
-        //}
+        public Product Get(int id)
+        {
+            return productrepo.GetItem(id);
+        }
 
-        // GET api/values/5
+        //GET api/values/5
         public List<Product> Get()
         {
             return productrepo.GetAll();

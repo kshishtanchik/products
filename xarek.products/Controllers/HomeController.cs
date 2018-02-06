@@ -8,13 +8,19 @@ namespace xarek.products.Controllers
 {
     public class HomeController : Controller
     {
-        public ActionResult Index()
+        public ActionResult List()
         {
             ViewBag.Title = "Home Page";
 
             return View();
         }
-        public ActionResult myAngular()
+        public ActionResult detail()
+        {
+            ViewBag.Title = "Home Page";
+
+            return View();
+        }
+        public ActionResult Index()
         {
             ViewBag.Title = "Home Page";
 

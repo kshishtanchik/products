@@ -7,3 +7,8 @@ D:\distr\xarek.products\xarek.products.domain\bin\Debug\xarek.products.domain.pd
 D:\distr\xarek.products\xarek.products.domain\obj\Debug\xarek.products.doman.csprojResolveAssemblyReference.cache
 D:\distr\xarek.products\xarek.products.domain\obj\Debug\xarek.products.domain.dll
 D:\distr\xarek.products\xarek.products.domain\obj\Debug\xarek.products.domain.pdb
+E:\projects\products-master\xarek.products.domain\bin\Debug\xarek.products.domain.dll
+E:\projects\products-master\xarek.products.domain\bin\Debug\xarek.products.domain.pdb
+E:\projects\products-master\xarek.products.domain\obj\Debug\xarek.products.doman.csprojResolveAssemblyReference.cache
+E:\projects\products-master\xarek.products.domain\obj\Debug\xarek.products.domain.dll
+E:\projects\products-master\xarek.products.domain\obj\Debug\xarek.products.domain.pdb
