@@ -1,4 +1,4 @@
-﻿var EditApp = angular.module('EditApp', []);
-EditApp.controller('EditAppController', function ($scope, $http) {
+﻿//var EditApp = angular.module('EditApp', []);
+//EditApp.controller('EditAppController', function ($scope, $http) {
 
-});
+//});

@@ -12,3 +12,8 @@ E:\projects\products-master\xarek.products.domain\bin\Debug\xarek.products.domai
 E:\projects\products-master\xarek.products.domain\obj\Debug\xarek.products.doman.csprojResolveAssemblyReference.cache
 E:\projects\products-master\xarek.products.domain\obj\Debug\xarek.products.domain.dll
 E:\projects\products-master\xarek.products.domain\obj\Debug\xarek.products.domain.pdb
+E:\projects\products\xarek.products.domain\bin\Debug\xarek.products.domain.dll
+E:\projects\products\xarek.products.domain\bin\Debug\xarek.products.domain.pdb
+E:\projects\products\xarek.products.domain\obj\Debug\xarek.products.doman.csprojResolveAssemblyReference.cache
+E:\projects\products\xarek.products.domain\obj\Debug\xarek.products.domain.dll
+E:\projects\products\xarek.products.domain\obj\Debug\xarek.products.domain.pdb

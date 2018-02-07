@@ -10,13 +10,10 @@ namespace xarek.products.Controllers
     {
         public ActionResult List()
         {
-            ViewBag.Title = "Home Page";
-
             return View();
         }
         public ActionResult detail()
         {
-            ViewBag.Title = "Home Page";
 
             return View();
         }

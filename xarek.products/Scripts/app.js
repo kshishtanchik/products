@@ -1,4 +1,8 @@
 ﻿angular.module('productsListApp', ['ngRoute'])
+    .value('fbURL', '/')
+    .service('fbRef', function (fbURL) {
+        return new Firebase(fbURL)
+    })
     .config(function ($routeProvider, $locationProvider) {
 
         $locationProvider.hashPrefix('');
@@ -14,7 +18,7 @@
             })
             //.when('/new', {
             //    controller: 'NewProjectController as editProject',
-            //    templateUrl: 'detail.html',
+            //    templateUrl: 'detail.html', 
             //    resolve: resolveProjects
             //})
             .otherwise({
@@ -75,8 +79,12 @@
         };
 
     })
-    .controller('editProductController', function ($scope, $http) {
+    .controller('editProductController', function ($scope, $http, $routeParams, $location) {
         var ProductId = $routeParams.ProductId;
+        $scope.ProductId;
+        $scope.ProductName;
+        $scope.Count;
+        $scope.Price;
         $http({ method: 'Get', url: '/api/values/' + ProductId })
             .then(function success(response) {
                 $scope.ProductId = response.data.ProductId;
@@ -90,4 +98,16 @@
                     $location.path('/');
                 });
         };
-    });
+
+    })
+
+.controller('addProductController', function ($scope, $http, $routeParams, $location) {
+    var ProductId = $routeParams.ProductId;
+    $scope.Save = function () {
+        $http({ method: 'Post', data: { ProductId: $scope.ProductId, Count: $scope.Count, Price: $scope.Price, ProductName: $scope.ProductName }, url: '/api/values'+ ProductId })
+            .then(function success(response) {
+                $location.path('/');
+            });
+    };
+
+});
