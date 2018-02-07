@@ -1,6 +1,7 @@
-﻿
-angular.module('productsListApp', ['ngRoute'])
-    .config(function ($routeProvider) {
+﻿angular.module('productsListApp', ['ngRoute'])
+    .config(function ($routeProvider, $locationProvider) {
+
+        $locationProvider.hashPrefix('');
 
         $routeProvider
             .when('/', {
@@ -65,7 +66,7 @@ angular.module('productsListApp', ['ngRoute'])
                 });
         };
 
-        
+
 
         $scope.change = function (ProductId) {
             if ($scope.ProductId !== $scope.products[ProductId].ProductId) {
@@ -76,17 +77,17 @@ angular.module('productsListApp', ['ngRoute'])
     })
     .controller('editProductController', function ($scope, $http) {
         var ProductId = $routeParams.ProductId;
-               $http({ method: 'Get', url: '/api/values/'+ProductId })
-                .then(function success(response) {
-                    $scope.ProductId = response.data.ProductId;
-                    $scope.ProductName = response.data.ProductName;
-                    $scope.Count = response.data.Count;
-                    $scope.Price = response.data.Price;
+        $http({ method: 'Get', url: '/api/values/' + ProductId })
+            .then(function success(response) {
+                $scope.ProductId = response.data.ProductId;
+                $scope.ProductName = response.data.ProductName;
+                $scope.Count = response.data.Count;
+                $scope.Price = response.data.Price;
             });
-               $scope.Save = function () {
-                   $http({ method: 'Post', data: { ProductId: $scope.ProductId, Count: $scope.Count, Price: $scope.Price, ProductName: $scope.ProductName }, url: '/api/values' })
-                       .then(function success(response) {
-                           $location.path('/');
-                       });
-               };
+        $scope.Save = function () {
+            $http({ method: 'Post', data: { ProductId: $scope.ProductId, Count: $scope.Count, Price: $scope.Price, ProductName: $scope.ProductName }, url: '/api/values' })
+                .then(function success(response) {
+                    $location.path('/');
+                });
+        };
     });
