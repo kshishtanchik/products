@@ -1,11 +1,11 @@
 ﻿<h1>Перечень элементов</h1>
+<a class="btn btn-success" href="#/new">Добавить запись</a>
 <div class="row">
     <div class="col-4">
         <div class="list-group" id="list-tab" role="tablist">
             <ul class="list-group">
                 <li class="list-group-item d-flex justify-content-between align-items-center" ng-repeat="product in products">
-                    <a class="list-group-item list-group-item-action" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home"
-                       ng-href="#/edit/{{product.ProductId}}">
+                    <a class="list-group-item list-group-item-action"data-toggle="list" role="tab" ng-href="#/edit/{{product.ProductId}}">
                         <h3>{{product.ProductName}}</h3>
                         <span class="badge badge-primary badge-pill">#: {{product.ProductId}}</span>
                         <span class="badge badge-primary badge-pill">Количество: {{product.Count}}</span>
@@ -16,5 +16,4 @@
             </ul>
         </div>
     </div>
-
 </div>

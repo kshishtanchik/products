@@ -1,8 +1,5 @@
 ﻿angular.module('productsListApp', ['ngRoute'])
-    .value('fbURL', '/')
-    .service('fbRef', function (fbURL) {
-        return new Firebase(fbURL)
-    })
+
     .config(function ($routeProvider, $locationProvider) {
 
         $locationProvider.hashPrefix('');
@@ -16,46 +13,16 @@
                 controller: 'editProductController as editProduct',
                 templateUrl: 'Home/detail'
             })
-            //.when('/new', {
-            //    controller: 'NewProjectController as editProject',
-            //    templateUrl: 'detail.html', 
-            //    resolve: resolveProjects
-            //})
+            .when('/new', {
+                controller: 'addProductController as newProduct',
+                templateUrl: 'Home/detail'
+            })
             .otherwise({
                 redirectTo: '/'
             });
     })
     .controller('productsListController', function ($scope, $http) {
-        $scope.headers = [
-            {
-                header: 'Идентификатор продукта',
-                idHeader: 'id'
-            },
-            {
-                header: 'Наименование продукта',
-                idHeader: 'name'
-            },
-            {
-                header: 'Количество товара',
-                idHeader: 'count'
-            },
-            {
-                header: 'Цена продукта',
-                idHeader: 'price'
-            }
-
-        ];
-        $scope.ProductId;
-        $scope.ProductName;
-        $scope.Count;
-        $scope.Price;
-        $scope.products = [];
-        $scope.butt;
-        $http({ method: 'Get', url: '/api/values' })
-            .then(function success(response) {
-                $scope.products = response.data;
-            });
-
+        $scope.products = [];       
         $scope.Reflesh = function () {
             $http({ method: 'Get', url: '/api/values' })
                 .then(function success(response) {
@@ -69,31 +36,22 @@
                     $scope.Reflesh();
                 });
         };
-
-
-
-        $scope.change = function (ProductId) {
-            if ($scope.ProductId !== $scope.products[ProductId].ProductId) {
-                $scope.butt = "Создать";
-            }
-        };
+        $scope.Reflesh();
 
     })
     .controller('editProductController', function ($scope, $http, $routeParams, $location) {
         var ProductId = $routeParams.ProductId;
-        $scope.ProductId;
         $scope.ProductName;
         $scope.Count;
         $scope.Price;
         $http({ method: 'Get', url: '/api/values/' + ProductId })
             .then(function success(response) {
-                $scope.ProductId = response.data.ProductId;
                 $scope.ProductName = response.data.ProductName;
                 $scope.Count = response.data.Count;
                 $scope.Price = response.data.Price;
             });
         $scope.Save = function () {
-            $http({ method: 'Post', data: { ProductId: $scope.ProductId, Count: $scope.Count, Price: $scope.Price, ProductName: $scope.ProductName }, url: '/api/values' })
+            $http({ method: 'Post', data: { ProductId: ProductId, Count: $scope.Count, Price: $scope.Price, ProductName: $scope.ProductName }, url: '/api/values' })
                 .then(function success(response) {
                     $location.path('/');
                 });
@@ -102,9 +60,8 @@
     })
 
 .controller('addProductController', function ($scope, $http, $routeParams, $location) {
-    var ProductId = $routeParams.ProductId;
     $scope.Save = function () {
-        $http({ method: 'Post', data: { ProductId: $scope.ProductId, Count: $scope.Count, Price: $scope.Price, ProductName: $scope.ProductName }, url: '/api/values'+ ProductId })
+        $http({ method: 'Post', data: { ProductId: 0, Count: $scope.Count, Price: $scope.Price, ProductName: $scope.ProductName }, url: '/api/values'})
             .then(function success(response) {
                 $location.path('/');
             });

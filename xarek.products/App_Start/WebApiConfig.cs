@@ -34,7 +34,7 @@ namespace xarek.products
         {
             ninjectKernel = new StandardKernel();
 
-            ninjectKernel.Bind<IproductREPO>().To<FakeProductRepo>();
+            ninjectKernel.Bind<IproductREPO>().To<DBProductRepo>();
         }
     }
 }

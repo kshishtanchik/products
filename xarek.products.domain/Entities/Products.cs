@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
 
 namespace xarek.products.domain.Entities
 {
@@ -11,6 +12,7 @@ namespace xarek.products.domain.Entities
        /// <summary>
        /// идентификатор товара
        /// </summary>
+       [Key]
        public int ProductId { set; get; }
         /// <summary>
         /// Наименование товара

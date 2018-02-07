@@ -23,16 +23,7 @@ namespace xarek.products.domain.Implementation
         {
             return products;
             
-        }
-
-        
-        /// <summary>
-        /// Добавление
-        /// </summary>
-        public void AddItem(Product NewProduct)
-        {
-            products.Add(NewProduct);
-        }
+        }    
         /// <summary>
         /// удаление
         /// </summary>       
@@ -40,8 +31,7 @@ namespace xarek.products.domain.Implementation
         {
             var item = products.FirstOrDefault(x => x.ProductId == DelProduct);
             products.Remove(item);
-        }
-        // добавление изменеие удаление
+        }    
         /// <summary>
         /// Форирование элемента
         /// </summary>
