@@ -1,15 +1,25 @@
-﻿            <table>
-                <tr>
-                    <td><p>Наименование продукта: </p> </td>
-                    <td><input type="text" ng-model="ProductName" role="tab" /></td>
-                </tr>
-                <tr>
-                    <td><p>Количество товара: </p> </td>
-                    <td><input type="text" ng-model="Count" role="tab" /></td>
-                </tr>
-                <tr>
-                    <td><p>Цена продукта: </p> </td>
-                    <td><input type="text" ng-model="Price" role="tab" /></td>
-                </tr>
-            </table>
-            <button class="btn btn-outline-info" ng-click="Save()" role="tab">Записать</button>
+﻿<div class="border-left pricingTable container">
+    <div class="col-md-5">
+        
+        <table class="d-md-table">
+            <caption></caption>
+            <tr>
+                <th colspan="2"><h3 class="text-center">{{formName}}</h3></th>
+            </tr>
+            <tr>
+                <td><p>Наименование продукта: </p> </td>
+                <td><input type="text" ng-model="ProductName" role="tab" /></td>
+            </tr>
+            <tr>
+                <td><p>Количество товара: </p> </td>
+                <td><input type="text" ng-model="Count" role="tab" /></td>
+            </tr>
+            <tr>
+                <td><p>Цена продукта: </p> </td>
+                <td><input type="text" ng-model="Price" role="tab" /></td>
+            </tr>
+        </table>
+        <button class="btn btn-outline-info align-self-lg-center" ng-click="Save()" role="tab"  data-toggle="tooltip" data-placement="top" title="Записать данные в таблицу">Сохранить</button>
+        <a href="#/" class="btn btn-outline-info" role="tab" data-toggle="tooltip" data-placement="top" title="Не сохранять данные в таблицу">Отмена</a>
+    </div>
+</div>

@@ -17,19 +17,24 @@
                 controller: 'addProductController as newProduct',
                 templateUrl: 'Home/detail'
             })
-            .otherwise({
-                redirectTo: '/'
-            });
+            .when('/delete/:ProductId', {
+                controller: 'deleteProductController as delProduct',
+                templateUrl: 'Home/List'
+            })
+                .otherwise({
+                    redirectTo: '/'
+                });
     })
     .controller('productsListController', function ($scope, $http) {
-        $scope.products = [];       
+        $scope.products = [];
         $scope.Reflesh = function () {
             $http({ method: 'Get', url: '/api/values' })
                 .then(function success(response) {
                     $scope.products = response.data;
                 });
+            
         };
-
+        
         $scope.IDelete = function (DlProduct) {
             $http({ method: 'Delete', url: '/api/values/' + DlProduct })
                 .then(function success(response) {
@@ -41,6 +46,7 @@
     })
     .controller('editProductController', function ($scope, $http, $routeParams, $location) {
         var ProductId = $routeParams.ProductId;
+        $scope.formName='Редактирование элемента';
         $scope.ProductName;
         $scope.Count;
         $scope.Price;
@@ -59,12 +65,21 @@
 
     })
 
-.controller('addProductController', function ($scope, $http, $routeParams, $location) {
-    $scope.Save = function () {
-        $http({ method: 'Post', data: { ProductId: 0, Count: $scope.Count, Price: $scope.Price, ProductName: $scope.ProductName }, url: '/api/values'})
-            .then(function success(response) {
-                $location.path('/');
-            });
-    };
+    .controller('addProductController', function ($scope, $http, $routeParams, $location) {
+        $scope.formName = 'Добавление элемента';
+        $scope.Save = function () {
+            $http({ method: 'Post', data: { ProductId: 0, Count: $scope.Count, Price: $scope.Price, ProductName: $scope.ProductName }, url: '/api/values' })
+                .then(function success(response) {
+                    $location.path('/');
+                });
+        };
 
-});
+    })
+
+    .controller('deleteProductController', function ($scope, $http, $routeParams, $location) {
+        var ProductId = $routeParams.ProductId;
+        $http({ method: 'Delete', url: '/api/values/'+ ProductId})
+                .then(function success(response) {
+                    $location.path('/');
+            });
+    });

@@ -217,6 +217,13 @@
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="img\bg-light-4835.png" />
+    <Content Include="img\bg-light-4851.png" />
+    <Content Include="img\bg-light-4869.png" />
+    <Content Include="img\bg-lightl-889.jpg" />
+    <Content Include="img\bg-lightl-904.jpg" />
+    <Content Include="img\carbon_fibre_bw.png" />
+    <Content Include="img\gplaypattern.png" />
     <Content Include="Scripts\angular-animate.js" />
     <Content Include="Scripts\angular-route.min.js" />
     <Content Include="Scripts\angular.min.js" />

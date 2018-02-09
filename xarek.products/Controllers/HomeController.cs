@@ -19,7 +19,7 @@ namespace xarek.products.Controllers
         }
         public ActionResult Index()
         {
-            ViewBag.Title = "Home Page";
+            ViewBag.Title = "Перечень продуктов";
 
             return View();
         }
