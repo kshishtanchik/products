@@ -29,11 +29,11 @@
                                         </div>
                                         <div class="modal-footer">
                                             <a class="btn btn-outline-warning btn-warning" data-dismiss="modal">Отмена</a>
-                                            <a data-dismiss="modal" href="#/delete/{{product.ProductId}}" class="btn btn-primary">Удалить</a>
+                                            <a @*href="#/delete/{{product.ProductId}}"*@ data-dismiss="modal" class="btn btn-primary text-light">Удалить</a>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div><!-- Modal -->
 
                         </th>
                         <td>{{product.ProductName}}</td>
