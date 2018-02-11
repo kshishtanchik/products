@@ -6,3 +6,7 @@
 /xarek.products/bin/EntityFramework.SqlServer.xml
 /xarek.products/bin/EntityFramework.dll
 /xarek.products/bin/EntityFramework.xml
+xarek.products.domain/bin/Debug/xarek.products.domain.pdb
+xarek.products.domain/bin/Debug/xarek.products.domain.dll
+xarek.products.domain/obj/Debug/xarek.products.domain.dll
+*.dll

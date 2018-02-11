@@ -17,3 +17,13 @@ E:\projects\products\xarek.products.domain\bin\Debug\xarek.products.domain.pdb
 E:\projects\products\xarek.products.domain\obj\Debug\xarek.products.doman.csprojResolveAssemblyReference.cache
 E:\projects\products\xarek.products.domain\obj\Debug\xarek.products.domain.dll
 E:\projects\products\xarek.products.domain\obj\Debug\xarek.products.domain.pdb
+C:\Users\User\Documents\GitHub\products\xarek.products.domain\bin\Debug\xarek.products.domain.dll
+C:\Users\User\Documents\GitHub\products\xarek.products.domain\bin\Debug\xarek.products.domain.pdb
+C:\Users\User\Documents\GitHub\products\xarek.products.domain\bin\Debug\EntityFramework.dll
+C:\Users\User\Documents\GitHub\products\xarek.products.domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Documents\GitHub\products\xarek.products.domain\bin\Debug\EntityFramework.xml
+C:\Users\User\Documents\GitHub\products\xarek.products.domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Documents\GitHub\products\xarek.products.domain\obj\Debug\xarek.products.doman.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\GitHub\products\xarek.products.domain\obj\Debug\xarek.products.doman.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\GitHub\products\xarek.products.domain\obj\Debug\xarek.products.domain.dll
+C:\Users\User\Documents\GitHub\products\xarek.products.domain\obj\Debug\xarek.products.domain.pdb

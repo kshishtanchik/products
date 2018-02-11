@@ -26,6 +26,8 @@
                 });
     })
     .controller('productsListController', function ($scope, $http) {
+        $scope.Deleted = {};
+        
         $scope.products = [];
         $scope.Reflesh = function () {
             $http({ method: 'Get', url: '/api/values' })
@@ -34,15 +36,16 @@
                 });
             
         };
-        
-        $scope.IDelete = function (DlProduct) {
-            $http({ method: 'Delete', url: '/api/values/' + DlProduct })
+        $scope.ConfirmDelete = function (product) {
+            $scope.Deleted = product;
+        };
+        $scope.Delete = function () {
+            $http({ method: 'Delete', url: '/api/values/' + $scope.Deleted.ProductId })
                 .then(function success(response) {
                     $scope.Reflesh();
                 });
         };
         $scope.Reflesh();
-
     })
     .controller('editProductController', function ($scope, $http, $routeParams, $location) {
         var ProductId = $routeParams.ProductId;

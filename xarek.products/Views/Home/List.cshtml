@@ -1,43 +1,43 @@
 ﻿<h1>Перечень элементов</h1>
-                <div class="panel-body">
-                    <a class="btn btn-success" href="#/new" data-toggle="tooltip" data-placement="top" title="&harr; Tab для боллее быстрого переключения">	&#10010; Добавить запись</a>
-                </div>
-                <table class="table table-sm table-striped table-hover">
-                    <thead>
-                        <tr>
-                            <th scope="col">#</th>
-                            <th scope="col">Наименование продукта</th>
-                            <th scope="col">Количество продукта</th>
-                            <th scope="col">Цена продукта</th>
-                        </tr>
-                    </thead>
-                    <tr ng-repeat="product in products">
-                        <th scope="row">
-                            <a class="btn btn-sm btn-outline-danger alert-danger" data-toggle="modal" data-target="#{{product.ProductId}}" data-placement="top" title="Удалить запись">&times;</a>
-                            <a href="#/edit/{{product.ProductId}}" class="btn btn-sm btn-outline-info alert-info" data-toggle="tooltip" data-placement="top" title="Редактировать запись">&#9998;</a>
-                            <!-- Modal -->
-                            <div class="modal fade" id="{{product.ProductId}}" tabindex="-1" role="dialog" aria-labelledby="{{product.ProductId}}Title" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered" role="document">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="{{product.ProductId}}lLongTitle">Подтверждение действия</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <div class="modal-body">Вы собираетесь удалить элемент {{product.ProductName}}. Вы уверены?
-                                        </div>
-                                        <div class="modal-footer">
-                                            <a class="btn btn-outline-warning btn-warning" data-dismiss="modal">Отмена</a>
-                                            <a @*href="#/delete/{{product.ProductId}}"*@ data-dismiss="modal" class="btn btn-primary text-light">Удалить</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><!-- Modal -->
-
-                        </th>
-                        <td>{{product.ProductName}}</td>
-                        <td>{{product.Count}}</td>
-                        <td>{{product.Price}}</td>
-                    </tr>
-                </table>
+<div class="panel-body">
+    <a class="btn btn-success" href="#/new" data-toggle="tooltip" data-placement="top" title="&harr; Tab для боллее быстрого переключения">	&#10010; Добавить запись</a>
+</div>
+<table class="table table-sm table-striped table-hover">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Наименование продукта</th>
+            <th scope="col">Количество продукта</th>
+            <th scope="col">Цена продукта</th>
+        </tr>
+    </thead>
+    <tr ng-repeat="product in products">
+        <th scope="row">
+            <a class="btn btn-sm btn-outline-danger alert-danger" data-toggle="modal" data-target="#madawin" data-placement="top" title="Удалить запись" ng-click="ConfirmDelete(product)">&times;</a>
+            <a href="#/edit/{{product.ProductId}}" class="btn btn-sm btn-outline-info alert-info" data-toggle="tooltip" data-placement="top" title="Редактировать запись">&#9998;</a>
+        </th>
+        <td>{{product.ProductName}}</td>
+        <td>{{product.Count}}</td>
+        <td>{{product.Price}}</td>
+    </tr>
+</table>
+<!-- Modal -->
+<div class="modal fade" id="madawin" tabindex="-1" role="dialog" aria-labelledby="madawinTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="madawinlLongTitle">Подтверждение действия</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                Вы собираетесь удалить элемент {{Deleted.ProductName}}. Вы уверены?
+            </div>
+            <div class="modal-footer">
+                <a class="btn btn-outline-warning btn-warning" data-dismiss="modal">Отмена</a>
+                <a data-dismiss="modal" class="btn btn-primary text-light" ng-click="Delete()">Удалить</a>
+            </div>
+        </div>
+    </div>
+</div><!-- Modal -->
