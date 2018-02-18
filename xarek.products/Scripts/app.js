@@ -1,9 +1,6 @@
 ﻿angular.module('productsListApp', ['ngRoute'])
-
     .config(function ($routeProvider, $locationProvider) {
-
         $locationProvider.hashPrefix('');
-
         $routeProvider
             .when('/', {
                 controller: 'productsListController as productlist',
@@ -25,6 +22,7 @@
                     redirectTo: '/'
                 });
     })
+
     .controller('productsListController', function ($scope, $http) {
         $scope.Deleted = {};
         
@@ -47,36 +45,57 @@
         };
         $scope.Reflesh();
     })
+
     .controller('editProductController', function ($scope, $http, $routeParams, $location) {
         var ProductId = $routeParams.ProductId;
-        $scope.formName='Редактирование элемента';
+        $scope.formName = 'Редактирование продукта';
+        $scope.cont = 'Состав продукта';
         $scope.ProductName;
         $scope.Count;
         $scope.Price;
+        $scope.Consists = [{ Content: '', countConsist: 0 }];
         $http({ method: 'Get', url: '/api/values/' + ProductId })
             .then(function success(response) {
                 $scope.ProductName = response.data.ProductName;
                 $scope.Count = response.data.Count;
                 $scope.Price = response.data.Price;
+                $scope.Consists = response.data.Consists;
             });
+        $scope.addConsist = function () {
+            $scope.Consists.push({ Content: '', countConsist: 0 });
+        };
+        $scope.delConist = function (item) {
+            $scope.Consists.splice($scope.Consists.indexOf(item),1);
+        }
         $scope.Save = function () {
-            $http({ method: 'Post', data: { ProductId: ProductId, Count: $scope.Count, Price: $scope.Price, ProductName: $scope.ProductName }, url: '/api/values' })
+            $http({ method: 'Post', data: { ProductId: ProductId, Count: $scope.Count, Price: $scope.Price, ProductName: $scope.ProductName, Consists: $scope.Consists }, url: '/api/values' })
                 .then(function success(response) {
                     $location.path('/');
                 });
         };
-
+        $scope.editCell = function () {
+            $scope.ConistsLabel.show(blind);
+            $scope.Consists.hide(blind);
+        }
     })
 
     .controller('addProductController', function ($scope, $http, $routeParams, $location) {
-        $scope.formName = 'Добавление элемента';
+        $scope.formName = 'Добавление продукта:';
+        $scope.Consists = [{ Content: '', countConsist: 0 }];
         $scope.Save = function () {
-            $http({ method: 'Post', data: { ProductId: 0, Count: $scope.Count, Price: $scope.Price, ProductName: $scope.ProductName }, url: '/api/values' })
+            $http({ method: 'Post', data: { ProductId: 0, Count: $scope.Count, Price: $scope.Price, ProductName: $scope.ProductName, Consists: $scope.Consists  }, url: '/api/values' })
                 .then(function success(response) {
                     $location.path('/');
                 });
         };
 
+        $scope.addConsist = function () {
+            $scope.Consists.push({ Content: '', countConsist: 0 });
+        };
+
+        $scope.delConist = function (item) {
+            $scope.Consists.splice($scope.Consists.indexOf(item), 1);
+        };
     })
 
     .controller('deleteProductController', function ($scope, $http, $routeParams, $location) {

@@ -1,6 +1,6 @@
 ﻿<h1>Перечень элементов</h1>
 <div class="panel-body">
-    <a class="btn btn-success" href="#/new" data-toggle="tooltip" data-placement="top" title="&harr; Tab для боллее быстрого переключения">	&#10010; Добавить запись</a>
+    <a class="btn btn-success" href="#/new" data-toggle="tooltip" data-placement="top" title="&harr; Tab для быстрого переключения по кнопкам">	&#10010; Добавить запись</a>
 </div>
 <table class="table table-sm table-striped table-hover">
     <thead>
@@ -13,8 +13,8 @@
     </thead>
     <tr ng-repeat="product in products">
         <th scope="row">
-            <a class="btn btn-sm btn-outline-danger alert-danger" data-toggle="modal" data-target="#madawin" data-placement="top" title="Удалить запись" ng-click="ConfirmDelete(product)">&times;</a>
-            <a href="#/edit/{{product.ProductId}}" class="btn btn-sm btn-outline-info alert-info" data-toggle="tooltip" data-placement="top" title="Редактировать запись">&#9998;</a>
+            <a class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#madawin" data-placement="top" title="Удалить запись" ng-click="ConfirmDelete(product)">&times;</a>
+            <a href="#/edit/{{product.ProductId}}" class="btn btn-sm btn-outline-secondary" data-toggle="tooltip" data-placement="top" title="Редактировать запись">&#9998;</a>
         </th>
         <td>{{product.ProductName}}</td>
         <td>{{product.Count}}</td>

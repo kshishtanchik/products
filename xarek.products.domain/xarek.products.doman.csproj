@@ -47,10 +47,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\Consist.cs" />
     <Compile Include="Implementation\DBProductRepo.cs" />
+    <Compile Include="interfaces\IConsistofRepo.cs" />
     <Compile Include="ProductsContext.cs" />
-    <Compile Include="Entities\Products.cs" />
-    <Compile Include="Implementation\FakeProductRepo.cs" />
+    <Compile Include="Entities\Product.cs" />
     <Compile Include="interfaces\IProductRepo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

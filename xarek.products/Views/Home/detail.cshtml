@@ -1,25 +1,53 @@
-﻿<div class="border-left pricingTable container">
-    <div class="col-md-5">
+﻿
+
+<div class="card">
+    <div class="card-header">
+        <h3 class="text-center">{{formName}}</h3>
+        <h4 class="text-center">{{ProductName}}</h4>
+
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1">Наименование продукта:</span>
+            </div>
+            <input type="text" class="form-control" placeholder="Наименование продукта" aria-describedby="basic-addon1" aria-label="Наименование продукта" ng-model="ProductName">
+        </div>
+
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1">Количество продукта:</span>
+            </div>
+            <input type="text" class="form-control" placeholder="Количество продукта" aria-describedby="basic-addon1" aria-label="Количество продукта" ng-model="Count">
+            <div class="input-group-append">
+                <span class="input-group-text" id="basic-addon3">шт</span>
+            </div>
+        </div>        
         
-        <table class="d-md-table">
-            <caption></caption>
-            <tr>
-                <th colspan="2"><h3 class="text-center">{{formName}}</h3></th>
-            </tr>
-            <tr>
-                <td><p>Наименование продукта: </p> </td>
-                <td><input type="text" ng-model="ProductName" role="tab" /></td>
-            </tr>
-            <tr>
-                <td><p>Количество товара: </p> </td>
-                <td><input type="text" ng-model="Count" role="tab" /></td>
-            </tr>
-            <tr>
-                <td><p>Цена продукта: </p> </td>
-                <td><input type="text" ng-model="Price" role="tab" /></td>
-            </tr>
-        </table>
-        <button class="btn btn-outline-info align-self-lg-center" ng-click="Save()" role="tab"  data-toggle="tooltip" data-placement="top" title="Записать данные в таблицу">Сохранить</button>
+
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon3">Цена продукта:</span>
+            </div>
+            <input type="text" class="form-control" placeholder="Количество продукта" aria-describedby="basic-addon3" aria-label="Количество продукта" ng-model="Price">
+            <div class="input-group-append">
+                <span class="input-group-text" id="basic-addon3">Руб.</span>
+            </div>
+        </div>
+        
+        <button class="btn btn-outline-info align-self-lg-center" ng-click="Save()" role="tab" data-toggle="tooltip" data-placement="top" title="Записать данные в таблицу">Сохранить</button>
         <a href="#/" class="btn btn-outline-info" role="tab" data-toggle="tooltip" data-placement="top" title="Не сохранять данные в таблицу">Отмена</a>
+    </div>
+
+    <div class="card-body">
+        <h5 class="card-title">{{cont}} =></h5>
+        <label for="basic-url">
+            <button class="btn btn-outline-secondary btn-sm align-content-md-end" ng-click="addConsist()" title="Добавить ингридиент">&#10010; | Добавить ингридиент</button>
+        </label>
+        <div class="input-group" ng-repeat="Consist in Consists">
+            <input type="text" class="form-control" placeholder="Ингридиент продукта" ng-model="Consist.Content">
+            <input type="text" class="form-control" placeholder="Количество ингридиента" ng-model="Consist.countConsist">
+            <div class="input-group-append">
+                <button class="btn btn-outline-secondary" type="button" title="Удалить запись" ng-click="delConist(Consist)">&times;</button>
+            </div>
+        </div>
     </div>
 </div>
